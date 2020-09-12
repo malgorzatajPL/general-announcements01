@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 853px;
+}
+
+header{
+    height:127px;
+    background-color: #EAAF46;
+}
+
+header img{
+    width: 333px;
+    height: 97px;
+    margin: 16px 0 14px 44px;
+}
+
+main{
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+main h1{
+    text-transform: uppercase;
+    color: #EAAF46;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+main .info{
+    margin-top: 18px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+main img{
+    margin-top: 31px;
+    width: 696px;
+    height: 371px;
+}
+
+.posts{
+    margin: 53px 63px 47px 76px;
+    display: flex;
+    flex-direction: column;
+}
+
+.posts h3{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 23px;
+}
+
+.posts .grid {
+    display: inline-flex;
+    height: 221px;
+    margin-bottom: 45px;
+}
+
+.posts .grid img{
+    width: 336px;
+    height: 221px;
+}
+
+.posts .grid .left{
+    margin-right: 23px;
+}
+
+.posts .grid .right{
+    margin-left: 23px;
+   
+}
+.posts .grid h4{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+
+.posts .grid span{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 357px;
+    height: 70px;
+    margin-bottom: 18px;
+}
+
+.posts .grid button{
+    margin-top: 15px;
+    font-size: 21px;
+    font-family:'Bebas Neue', cursive; ;
+    line-height: 25px;
+    text-align: center;
+    background-color: #EAAF46;
+    width: 187px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer .social{
+    height: 134px;
+    background-color: #eaaf46;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .social span{
+    margin-top: 38px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    font-family: "Arial";
+}
+
+footer .social img{
+    margin: 24px 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+footer .contact{
+   margin-top: 30px;
+   margin-bottom: 44px;
+   text-align: center;
+}
+
+footer .contact ul{
+    padding-bottom: 20px;
+}
+
+footer .contact li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+footer .contact a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    font-family: "Arial";
+}
